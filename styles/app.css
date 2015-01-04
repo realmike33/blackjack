@@ -12,11 +12,16 @@
 .hand {
   overflow: auto;
 }
-.btn{
-  width: 70px;
+body{
+  background-color: green;
+  width: 950px;
 }
 .hit-button{
+  width: 100px;
   margin-right: 20px;
+}
+.stand-button{
+  width: 100px;
 }
 .hit-button:hover{
   background-color: #283593;
@@ -24,21 +29,24 @@
 .stand-button:hover{
   background-color: #C62828;
 }
-body{
+.player-hand-container{
   text-align: center;
-  background-color: green;
+  left: 35%;
+}
+.dealer-hand-container{
+  text-align: center;
+  left: 35%;
 }
 div.card{
   position: relative;
-  left: 30%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.btn-primary{
-  width: 100px;
-  text-align: center;
+  left: 35%;
+  margin: 10px;
 }
 .winner{
   color: purple;
   border: black solid 3px;
+}
+#button-container{
+  text-align: center;
+  left: 35%;
 }
